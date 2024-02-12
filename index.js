@@ -1,13 +1,7 @@
-const student ={
-    firstName: "ismail",
-    lastName : "omar",
-    Dob      : "12/03/2007",
-    pob      : "guri",
-    phone_number: 1234332
+let grade = {
+    A : "80-100",
+    B : "70- 79",
+    C : "60 - 69",
+    D : "50 - 59",
+    E : "0 - 49" 
 }
-const school = {
-    school_name:"GSS",
-    class :"form 1H",
-    adm_no:43567,
-}
-console.log(student.firstName + " " + student.lastName + " is "+ school.class + " adm-no " + school.adm_no);
