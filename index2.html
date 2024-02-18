@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Try It Yourself</title>
+     </head>
+     <style>
+        body {
+        height: 100vh;
+        background: linear-gradient(to top left, #619c59, #7dd56f);
+        }
+        .buy,
+        .poll{
+            font-size: 1.6rem;
+            padding: 1rem , 2rem;
+            position: absolute;
+            top: 2rem;
+        }
+        .buy{
+            left: 2rem;
+        }
+        .poll{
+            right: 2rem;
+        }
+     </style>
+     <body>
+        <label>Choose a fruit!!
+            <select id="fruits" onchange="checkPrice()">
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                <option value="cherry">cherry</option>
+                <option value="mango">mango</option>
+                <option value="orange">orange</option>
+                <option value="strawberry">strawberry</option>
+                </select>
+                <button class="buy">Buy New Plane:</button>
+                <button class="poll">This Is New Poll:</button>
+        </label>
+        <p id="price"></p>
+                <script src="switch_case1.js"></script>
+     </body>
+</html>
